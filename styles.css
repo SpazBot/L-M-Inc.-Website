@@ -1,0 +1,25 @@
+/* Style sheet*/
+
+body{
+background-image: url("./images/background.jpg");
+background-color: antiquewhite;
+height: 500px;
+background-size: cover;
+
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-selection{
+    border-radius: 8px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.main-content{
+    border-radius: 8px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
