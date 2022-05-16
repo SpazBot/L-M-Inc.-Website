@@ -2,6 +2,7 @@
 
 body{
 background-image: url("./images/background.jpg");
+background-size: auto;
 background-color: antiquewhite;
 height: 500px;
 background-size: cover;
@@ -9,12 +10,32 @@ background-size: cover;
 font-family: Arial, Helvetica, sans-serif;
 }
 
-.page-selection{
+.page-navigation{
     border-radius: 8px;
     backdrop-filter: blur(20px);
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 50px;
+}
+.page-selection{
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    line-height: 24px;
+    position: static;
+    z-index: auto;
+    font-weight: bold;
+
+    border-radius: 8px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 50px;
+    margin-bottom: 25px;
+    padding-block: 15;
+    align-content: center;
 }
 .main-content{
     border-radius: 8px;
@@ -22,4 +43,7 @@ font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(255, 255, 255, 0.3);
+}
+#logo{
+    
 }
