@@ -6,44 +6,67 @@ background-size: auto;
 background-color: antiquewhite;
 height: 500px;
 background-size: cover;
+background-repeat: no-repeat;
 
 font-family: Arial, Helvetica, sans-serif;
 }
 
 .page-navigation{
+    display: inline-flex;
+    width: auto;
+    padding-bottom: 48px;
+}
+.logo{
+    display:inline-flex;
+    height: 96px;
+    width: 96px;
     border-radius: 8px;
     backdrop-filter: blur(20px);
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-bottom: 50px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    margin-top: 48px;
+}
+.selection-bar{
+    display: inline-flex;
+    border-radius: 8px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    height: 60px;
+    flex: 1;
+    padding: 4px;
+    margin-top: 60px;
+    margin-left: 24px;
+    align-content: right;
+    justify-content: space-between;
 }
 .page-selection{
-    box-sizing: border-box;
-    display: block;
-    float: none;
-    line-height: 24px;
-    position: static;
-    z-index: auto;
-    font-weight: bold;
-
-    border-radius: 8px;
-    backdrop-filter: blur(20px);
-    background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-bottom: 50px;
-    margin-bottom: 25px;
-    padding-block: 15;
-    align-content: center;
+    flex: 1;
+    width: 200px;
+    color:black;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 5px;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:rgb(54, 67, 122);
+}
+a:active{
+    color:rgb(54, 67, 122);
 }
 .main-content{
+    flex: 1;
     border-radius: 8px;
     backdrop-filter: blur(20px);
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-#logo{
-    
+    border: 1px solid rgb(255, 255, 255, 0.3);
 }
