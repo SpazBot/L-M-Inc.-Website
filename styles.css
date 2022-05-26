@@ -1,19 +1,29 @@
 /* Style sheet*/
-
+html{
+    margin: 0;
+    min-height: 100%;
+    min-width: 100%;
+    overflow: scroll;
+}
 body{
 background-image: url("./images/background.jpg");
-background-size: auto;
+position: fixed;
 background-color: antiquewhite;
-height: 500px;
+height: 100%;
+width: 100%;
 background-size: cover;
 background-repeat: no-repeat;
-
+margin: 0;
 font-family: Arial, Helvetica, sans-serif;
+overflow: scroll;
 }
 
 .page-navigation{
     display: flex;
-    width: auto;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding-bottom: 48px;
     padding-left: 12px;
     padding-right: 12px;
@@ -41,6 +51,7 @@ font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
     border: 1px solid rgb(255, 255, 255, 0.3);
     height: 60px;
+    width: 16em;
     flex: 1;
     padding: 4px;
     margin-top: 60px;
@@ -84,18 +95,20 @@ a:active{
     border: 1px solid rgb(255, 255, 255, 0.3);
     padding-left: 24px;
     padding-right: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
 }
-.footer{
-    display: flex;
-    width: auto;
-    padding-bottom: 12px;
+#footer{
+    width: 100%;
+    text-align: center;
     padding-left: 12px;
     padding-right: 12px;
-    margin-top: 48px;
     background-image: url("./images/woodgrain.jpg");
     background-size: cover;
     border-radius: 8px;
-    vertical-align:text-bottom;
-    color:rgb(138, 115, 80);
+    position: absolute;
+    bottom : 0;
+    color:rgba(255, 255, 255, 0.5)
 
 }
