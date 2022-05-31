@@ -99,6 +99,15 @@ a:active{
     margin-right: 24px;
     margin-bottom: 24px;
 }
+#contact-form{
+    flex: 1;
+    height: 500px;
+}
+#msg{
+    flex: 1;
+    height: 300px;
+    width: 40%;
+}
 #footer{
     width: 100%;
     text-align: center;
