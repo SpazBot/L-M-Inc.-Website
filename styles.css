@@ -7,7 +7,7 @@ html{
 }
 body{
 background-image: url("./images/background.jpg");
-position: fixed;
+position: relative;
 background-color: antiquewhite;
 height: 100%;
 width: 100%;
@@ -97,27 +97,22 @@ a:active{
     padding-right: 24px;
     margin-left: 24px;
     margin-right: 24px;
-    margin-bottom: 24px;
-}
-#contact-form{
-    flex: 1;
-    height: 500px;
+    margin-bottom: 48px;
+    font-size: large;
 }
 #msg{
-    flex: 1;
-    height: 300px;
+    height:175px;
     width: 40%;
 }
 #footer{
+    background-image: url("./images/woodgrain.jpg");
+    position: fixed;
+    left: 0;
+    bottom : 0;
     width: 100%;
     text-align: center;
-    padding-left: 12px;
-    padding-right: 12px;
-    background-image: url("./images/woodgrain.jpg");
     background-size: cover;
     border-radius: 8px;
-    position: absolute;
-    bottom : 0;
     color:rgba(255, 255, 255, 0.5)
 
 }
